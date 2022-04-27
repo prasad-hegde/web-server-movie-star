@@ -31,6 +31,7 @@
     "react-scripts": "5.0.0",
     "react-scroll-percentage": "^4.2.0",
     "react-spinners": "^0.11.0",
+    "redux": "^4.2.0",
     "serve": "^13.0.2",
     "styled-components": "^5.3.3",
     "talkjs": "^0.15.2",
@@ -63,5 +64,8 @@
   "devDependencies": {},
   "engines": {
     "node": "14.8.0"
+  },
+  "compilerOptions": {
+    "moduleResolution": "node"
   }
 }
