@@ -18,9 +18,7 @@ import BookingSummary from './views/bookingSummary';
 import Profile from './components/profile';
 import ErrorBoundary from './components/ErrorBoundary'
 import Payment from './components/Payment';
-
-import { reducer } from './reducer';
-
+import {reducer} from './redux/reducer';
 
 import { configureStore } from '@reduxjs/toolkit'
 
