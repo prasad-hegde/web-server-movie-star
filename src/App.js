@@ -13,7 +13,7 @@ import { ScrollContainer } from './components/ScrollContainer';
 import { Provider } from 'react-redux';
 import SeatLayoutPage from './views/seatLayout';
 import Error from './components/Error';
-import store from './redux/store';
+import store from './reduxtool/store';
 import BookingSummary from './views/bookingSummary';
 import Profile from './components/profile';
 import ErrorBoundary from './components/ErrorBoundary'
