@@ -13,11 +13,20 @@ import { ScrollContainer } from './components/ScrollContainer';
 import { Provider } from 'react-redux';
 import SeatLayoutPage from './views/seatLayout';
 import Error from './components/Error';
-import store from './reduxtool/store';
+// import store from './reduxtool/store';
 import BookingSummary from './views/bookingSummary';
 import Profile from './components/profile';
 import ErrorBoundary from './components/ErrorBoundary'
 import Payment from './components/Payment';
+
+import { reducer } from './reducer';
+
+
+import { configureStore } from '@reduxjs/toolkit'
+
+export const store = configureStore({
+  reducer,
+})
 
 const Container = styled.div`
 display:flex;
