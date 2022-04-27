@@ -1,0 +1,9 @@
+.App {
+  text-align: center;
+}
+
+body{
+  background-image: url('./assets/images/Background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
